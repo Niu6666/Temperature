@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+<!---时间-->
+    <!---体温-->
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:id="@+id/TIME"
+        android:layout_weight="0.15" />
+
+    <TextView
+        android:layout_width="53dp"
+        android:layout_height="match_parent"
+        android:id="@+id/TEM"/>
+    <!---地址-->
+    <!---特殊情况-->
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:id="@+id/AREA"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:id="@+id/SPE" />
+
+</LinearLayout>

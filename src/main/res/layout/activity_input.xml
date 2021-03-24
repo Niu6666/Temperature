@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:id="@+id/input"
+        android:baselineAligned="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="日期："
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/textdate" />
+
+        <TextView
+            android:text="位置："
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textColor="#5e73ff"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/tv_area"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="位置"
+
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignLeft="@+id/input"
+            android:layout_alignStart="@+id/input" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignLeft="@+id/input"
+            android:layout_alignStart="@+id/input" />
+
+
+        <TextView
+            android:text="体温："
+            android:layout_width="match_parent"
+            android:textColor="#5e73ff"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edittem"
+            android:text="36.2" />
+
+        <TextView
+            android:text="特殊情况："
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5e73ff"
+            android:id="@+id/teshu" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="无"
+            android:id="@+id/none"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="本人或家人正在集中隔离"
+            android:id="@+id/gather"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/changehome"
+            android:text="今日居住地异动"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/high"
+            android:text="2020年12月至今去过或现在居住在中高风险地区"/>
+
+        <TextView
+            android:text="填报人："
+            android:layout_width="336dp"
+            android:textColor="#5e73ff"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editname" />
+
+        <Button
+            android:text="查看历史填报"
+            android:layout_width="match_parent"
+            android:textColor="#5e73ff"
+            android:layout_height="30dp"
+            android:id="@+id/output"
+            android:layout_weight="0.39" />
+
+        <Button
+            android:text="提交"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#5e73ff"
+            android:layout_marginBottom="44dp"
+            android:id="@+id/inputMan" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15" />
+
+</LinearLayout>
